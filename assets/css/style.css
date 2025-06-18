@@ -12,17 +12,41 @@ footer {
   background-color: aquamarine;
 }
 
-.container {
-  height: calc(100vh - 200px);
+
+/*utility class*/
+
+
+.black {
+  background-color: #080B12;
 }
 
-.row {
-  display: flex;
+.grey {
+  background-color: #141922;
 }
+
+
+.lightgray {
+  background-color: #282828
+}
+
+.grigio {
+  color: #696B70;
+}
+
+/*layout class*/
 
 .sidebar {
   width: 300px;
   height: calc(100vh - 200px);
+}
+
+.container {
+  height: calc(100vh - 200px);
+}
+
+
+.row {
+  display: flex;
 }
 
 .main-content {
