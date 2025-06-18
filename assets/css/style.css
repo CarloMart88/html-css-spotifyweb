@@ -14,14 +14,16 @@ footer {
 
 
 /*utility class*/
-
-
 .black {
   background-color: #080B12;
 }
 
 .grey {
   background-color: #141922;
+}
+
+.sidegray {
+  background-color: #D2D2D2;
 }
 
 
@@ -32,6 +34,8 @@ footer {
 .grigio {
   color: #696B70;
 }
+
+
 
 /*layout class*/
 
@@ -56,4 +60,18 @@ footer {
 
 .header {
   height: 100px;
+  display: flex;
+  justify-content: end;
+  padding: 20px 0;
+
+}
+
+.top-header {
+  color: white;
+  border: 2px solid white;
+  border-radius: 25%;
+  background-color: #080B12;
+  font-weight: bold;
+  padding: 20px 15px;
+
 }
