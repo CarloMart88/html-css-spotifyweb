@@ -7,7 +7,7 @@
 }
 
 footer {
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: aquamarine;
 }
@@ -39,6 +39,9 @@ footer {
   display: none;
 }
 
+.style {
+  list-style: none;
+}
 
 
 /*layout class*/
@@ -86,19 +89,35 @@ footer {
 }
 
 /*sidebar class*/
-.spotify {}
+.spotify {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .lista-3 {
   display: flex;
   flex-direction: column;
 
+}
 
+
+
+.s-size {
+  width: 15%;
+}
+
+.side-style li {
+
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
 
 }
 
-.size {
-  width: 10%;
-  height: 10%;
-
+li>a {
+  color: #696B70;
+  text-decoration: none;
 }
