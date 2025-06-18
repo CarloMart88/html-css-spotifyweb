@@ -32,7 +32,11 @@ footer {
 }
 
 .grigio {
-  color: #696B70;
+  color: #A3A3A3;
+}
+
+.bianco {
+  color: white;
 }
 
 .disappear {
@@ -41,6 +45,10 @@ footer {
 
 .style {
   list-style: none;
+}
+
+.my-10 {
+  margin: 10px 0;
 }
 
 
@@ -109,15 +117,35 @@ footer {
   width: 15%;
 }
 
+
 .side-style li {
 
   display: flex;
   align-items: center;
-  padding: 5px 0px;
+  padding: 2px 0px;
 
 }
 
 li>a {
-  color: #696B70;
+  color: #A3A3A3;
   text-decoration: none;
+}
+
+
+/*playlist */
+
+.m-list li {
+  margin: 5px 0;
+}
+
+.cross {
+  font-size: 2rem;
+  color: black;
+  background-color: #A3A3A3;
+  padding: 10px 10px;
+}
+
+ul.m-list :first-child {
+  vertical-align: middle;
+  margin-right: 5px;
 }
