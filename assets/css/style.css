@@ -4,6 +4,7 @@
   box-sizing: border-box;
   border: 1px solid black;
 
+
 }
 
 footer {
@@ -51,6 +52,14 @@ footer {
   margin: 10px 0;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
+.center {
+  align-items: center;
+}
+
 
 /*layout class*/
 
@@ -58,8 +67,8 @@ footer {
   width: 300px;
   height: calc(100vh - 200px);
   border: 1px solid white;
-  padding: 20px 20px;
-
+  padding: 0px 20px;
+  padding-top: 20px;
 }
 
 .container {
@@ -70,6 +79,8 @@ footer {
 .row {
   display: flex;
 }
+
+
 
 .main-content {
   width: 100%;
@@ -148,4 +159,34 @@ li>a {
 ul.m-list :first-child {
   vertical-align: middle;
   margin-right: 5px;
+}
+
+/* unknown user*/
+
+.unknown {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 0;
+  height: 25%;
+}
+
+.hr-side {
+  margin: 5px 0;
+  border: 2px solid #A3A3A3;
+}
+
+
+.cerchio {
+
+  background-color: #A3A3A3;
+  border-radius: 100%;
+}
+
+.sm-size {
+  width: 10%;
+}
+
+.sm-font {
+  font-size: 0.7rem;
 }
