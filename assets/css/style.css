@@ -66,6 +66,10 @@ footer {
   align-items: center;
 }
 
+.w-calc {
+  width: calc(100% / 3);
+}
+
 .w-10 {
   width: 10%;
 }
@@ -78,6 +82,10 @@ footer {
   width: 50%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .h-50 {
   height: 50%;
 }
@@ -86,8 +94,12 @@ footer {
   height: 100%;
 }
 
-.f-w {
+.f-w-s {
   font-size: 0.7rem;
+}
+
+.f-w-b {
+  font-size: 2rem;
 }
 
 
@@ -96,14 +108,14 @@ footer {
 
 .sidebar {
   width: 300px;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 100px);
   border: 1px solid white;
   padding: 0px 20px;
   padding-top: 20px;
 }
 
 .container {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 100px);
 }
 
 
@@ -200,7 +212,7 @@ ul.m-list :first-child {
   flex-direction: column;
   justify-content: end;
   margin-top: 0;
-  height: 25%;
+  height: 35%;
 }
 
 .hr-side {
@@ -251,4 +263,78 @@ ul.m-list :first-child {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+/*Seconda barra dei pulsanti */
+
+.time,
+.scrollbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.scrollbar {
+  margin: 0 20px;
+  border: 2px solid #A3A3A3;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+.elapsed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: silver;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.controller {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  display: none;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black
+}
+
+.time:hover .elapsed {
+
+  border: 1px solid lawngreen;
+  background-color: lawngreen;
+
+}
+
+.time:hover .controller {
+  display: block;
+
+}
+
+/*terza barra dei pulsanti */
+
+.bar {
+  margin: 0 20px;
+  border: 2px solid #A3A3A3;
+  border-radius: 5px;
+  position: relative;
+}
+
+.r-bar:hover .elapsed {
+
+  border: 1px solid lawngreen;
+  background-color: lawngreen;
+
+}
+
+.r-bar:hover .controller {
+  display: block;
+
 }
