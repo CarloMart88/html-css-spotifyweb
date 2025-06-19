@@ -94,6 +94,10 @@ footer {
   width: 10%;
 }
 
+.end {
+  justify-content: end;
+}
+
 .w-25 {
   width: 25%;
 }
@@ -122,11 +126,11 @@ footer {
   height: 100%;
 }
 
-.f-w-s {
+.f-s-s {
   font-size: 0.7rem;
 }
 
-.f-w-b {
+.f-s-b {
   font-size: 2rem;
 }
 
@@ -270,7 +274,7 @@ li>a {
 /*playlist */
 
 .m-list li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .cross {
@@ -292,7 +296,7 @@ ul.m-list :first-child {
   flex-direction: column;
   justify-content: end;
   margin-top: 0;
-  height: 35%;
+  height: 30%;
 }
 
 .hr-side {
@@ -339,7 +343,7 @@ ul.m-list :first-child {
 }
 
 .song-name {
-  width: 50%;
+  width: 25%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -407,6 +411,9 @@ ul.m-list :first-child {
   position: relative;
 }
 
+
+/*HOVER*/
+
 .r-bar:hover .elapsed {
 
   border: 1px solid lawngreen;
@@ -417,4 +424,41 @@ ul.m-list :first-child {
 .r-bar:hover .controller {
   display: block;
 
+}
+
+
+.hw:hover {
+  color: white;
+}
+
+
+.hg:hover {
+  border-left-color: lawngreen;
+}
+
+.f-s-s:hover {
+  text-decoration: underline;
+
+}
+
+.fa-play-circle:hover {
+  font-size: 300%;
+}
+
+.top-header:hover {
+  font-size: 105%;
+}
+
+li#green::after {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 3px;
+  background-color: lawngreen;
+  margin-left: 0px;
+}
+
+.audio {
+  padding: 0px 0px;
+  margin: 0px 0px;
 }
