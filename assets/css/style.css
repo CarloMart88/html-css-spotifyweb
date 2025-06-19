@@ -66,6 +66,12 @@ footer {
   margin-right: 10px;
 }
 
+.mx-5 {
+  margin: 5px 5px;
+}
+
+
+
 .center {
   align-items: center;
 }
