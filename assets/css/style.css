@@ -17,6 +17,8 @@ footer {
 
 
 /*utility class*/
+
+
 .black {
   background-color: #080B12;
 }
@@ -136,6 +138,11 @@ footer {
   border-radius: 50%;
 }
 
+.point {
+  cursor: pointer;
+}
+
+
 
 /*layout class*/
 
@@ -180,7 +187,6 @@ footer {
   background-color: #080B12;
   font-weight: bold;
   padding: 10px 24px;
-  cursor: pointer;
 
 }
 
