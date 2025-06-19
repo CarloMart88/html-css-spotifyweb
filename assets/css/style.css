@@ -86,6 +86,10 @@ footer {
   padding-top: 5px;
 }
 
+.px-5 {
+  padding: 0 5px;
+}
+
 
 
 .center {
@@ -164,6 +168,7 @@ footer {
 }
 
 .container {
+  max-width: 1440px;
   height: calc(100vh - 100px);
 }
 
@@ -403,11 +408,17 @@ ul.m-list :first-child {
 
 /*terza barra dei pulsanti */
 
+
+
 .bar {
   margin: 0 20px;
   border: 2px solid #A3A3A3;
   border-radius: 5px;
   position: relative;
+}
+
+.list-button-2 {
+  width: 25%;
 }
 
 
@@ -457,7 +468,15 @@ li#green::after {
   margin-left: 0px;
 }
 
-.audio {
-  padding: 0px 0px;
-  margin: 0px 0px;
+
+
+
+/* MEDIA QUERY  IN ORDINE DECRESCENTE 878PX 
+PRIMO BREAK POINT*/
+
+@media all and (max-width: 878px) {
+
+  .list-button-2 {
+    width: 50%;
+  }
 }
