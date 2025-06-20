@@ -4,7 +4,6 @@
   box-sizing: border-box;
 
 
-
 }
 
 footer {
@@ -15,6 +14,9 @@ footer {
   justify-content: space-between;
   position: fixed;
 }
+
+
+
 
 
 /*utility class*/
@@ -108,6 +110,10 @@ footer {
   justify-content: end;
 }
 
+.w-20 {
+  width: 20%;
+}
+
 .w-25 {
   width: 25%;
 }
@@ -154,6 +160,10 @@ footer {
 
 .point {
   cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 
@@ -502,6 +512,7 @@ li#green::after {
 }
 
 
+
 /* MEDIA QUERY  IN ORDINE DECRESCENTE 878PX 
 PRIMO BREAK POINT 
 */
@@ -538,5 +549,111 @@ PRIMO BREAK POINT
 
   .selction {
     margin-top: 20px;
+  }
+
+  .item {
+    width: 50%;
+  }
+}
+
+
+/* MEDIA QUERY  IN ORDINE DECRESCENTE 639PX 
+SECONDO BREAK POINT 
+*/
+
+@media all and (max-width: 639px) {
+
+  .col-18 {
+    width: 50%;
+
+
+  }
+
+  .recently-played {
+    height: 80%;
+
+  }
+
+  .creato-jhon,
+  .artisti-pop {
+    height: 10%;
+  }
+
+  .testo-h {
+    margin-top: 20%;
+  }
+
+  .creato-jhon,
+  .artisti-pop {
+    height: 25%;
+  }
+
+  .list-button ul li {
+    width: 15%;
+  }
+
+  .spotify {
+    height: 10%;
+  }
+
+  .unknown {
+    height: 25%;
+  }
+
+
+
+
+
+
+}
+
+/* Ø */
+
+@media all and (max-width: 552px) {
+
+  .Ø {
+    display: none;
+  }
+
+  .disappear {
+    display: block;
+    height: 100%;
+  }
+
+  .sidebar {
+    width: 100px;
+
+  }
+
+  .mr-10 {
+    margin: 0;
+  }
+
+  .w-20 {
+    width: 50%;
+  }
+
+  .side-style li {
+    justify-content: center;
+  }
+
+  .sm-size {
+    width: 30%;
+  }
+
+  .s-size {
+    width: 50%;
+  }
+
+  .unknown {
+    height: 74%;
+    justify-content: end;
+    align-items: center;
+
+  }
+
+  .j-f-c {
+    margin-top: 20px;
+    justify-content: center;
   }
 }
