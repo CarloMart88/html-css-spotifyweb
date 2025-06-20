@@ -223,6 +223,7 @@ footer {
 .col-18 {
   width: calc(100% / 6);
   padding: 10px;
+
 }
 
 .colonna {
@@ -300,7 +301,7 @@ ul.m-list :first-child {
   flex-direction: column;
   justify-content: end;
   margin-top: 0;
-  height: 30%;
+  height: 25%;
 }
 
 .hr-side {
@@ -469,14 +470,75 @@ li#green::after {
 }
 
 
+.relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.relative img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+/*overlay
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.relative {
+  position: relative;
+  width: 100%;
+  height: 100;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+*/
 
 
 /* MEDIA QUERY  IN ORDINE DECRESCENTE 878PX 
-PRIMO BREAK POINT*/
+PRIMO BREAK POINT
 
 @media all and (max-width: 878px) {
 
   .list-button-2 {
     width: 50%;
   }
+
+  .disappear {
+    display: block;
+  }
 }
+
+*/
