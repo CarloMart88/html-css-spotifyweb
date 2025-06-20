@@ -498,37 +498,10 @@ li#green::after {
   opacity: 1;
 }
 
-/*overlay
-
-.overlay:hover {
-  opacity: 1;
-}
-
-.relative {
-  position: relative;
-  width: 100%;
-  height: 100;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-*/
-
 
 /* MEDIA QUERY  IN ORDINE DECRESCENTE 878PX 
-PRIMO BREAK POINT
+PRIMO BREAK POINT 
+*/
 
 @media all and (max-width: 878px) {
 
@@ -536,9 +509,9 @@ PRIMO BREAK POINT
     width: 50%;
   }
 
-  .disappear {
-    display: block;
+
+  .wrap {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
-
-*/
