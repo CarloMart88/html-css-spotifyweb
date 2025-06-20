@@ -246,6 +246,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 
@@ -279,7 +280,7 @@ li>a {
 /*playlist */
 
 .m-list li {
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .cross {
@@ -301,7 +302,7 @@ ul.m-list :first-child {
   flex-direction: column;
   justify-content: end;
   margin-top: 0;
-  height: 25%;
+  height: 20%;
 }
 
 .hr-side {
@@ -513,5 +514,27 @@ PRIMO BREAK POINT
   .wrap {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+
+  .col-18 {
+    width: 25%;
+    padding: 10px;
+
+  }
+
+  .recently-played {
+    height: 75%;
+
+  }
+
+  .creato-jhon,
+  .artisti-pop {
+    height: 25%;
+  }
+
+
+  .selction {
+    margin-top: 20px;
   }
 }
