@@ -240,22 +240,24 @@ footer {
 
 /*sidebar class*/
 
-
 .spotify {
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  height: 15%;
 }
 
 
 .lista-3 {
   display: flex;
   flex-direction: column;
-
+  height: 15%;
 }
 
+.playlist {
+  height: 47%;
+}
 
 
 .s-size {
@@ -280,7 +282,7 @@ li>a {
 /*playlist */
 
 .m-list li {
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 .cross {
@@ -302,7 +304,7 @@ ul.m-list :first-child {
   flex-direction: column;
   justify-content: end;
   margin-top: 0;
-  height: 20%;
+  height: 20%
 }
 
 .hr-side {
@@ -524,7 +526,7 @@ PRIMO BREAK POINT
   }
 
   .recently-played {
-    height: 75%;
+    height: 65%;
 
   }
 
