@@ -173,9 +173,11 @@ footer {
 
 .sidebar {
   width: 300px;
+  overflow-y: auto;
   height: calc(100vh - 100px);
   padding: 0px 20px;
   padding-top: 20px;
+
 }
 
 .container {
@@ -608,7 +610,11 @@ SECONDO BREAK POINT
 
 }
 
-/* Ø */
+/* MEDIA QUERY  IN ORDINE DECRESCENTE 552PX 
+TERZO BREAK POINT 
+*/
+
+
 
 @media all and (max-width: 552px) {
 
@@ -687,4 +693,49 @@ SECONDO BREAK POINT
 .ime {
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+/* PRIMA MEDIA QUERY  IN ORDINE DECRESCENTE 
+HEIGHT 350PX 
+QUARTO BREAK POINT 
+*/
+
+@media all and (max-height: 1000px) {
+
+  .Ω {
+    display: none;
+  }
+
+  .unknown {
+    height: 69%;
+  }
+
+
+}
+
+/* SECONDA  MEDIA QUERY  IN ORDINE DECRESCENTE 350PX 
+QUINTO BREAK POINT 
+*/
+/*Ω*/
+
+@media all and (max-height: 350px) {
+
+  .λ {
+    display: none;
+  }
+
+  .spotify {
+    height: 35%;
+    padding: 0;
+  }
+
+  .full-list {
+    padding-left: 0;
+  }
+
+  .h-10 {
+    height: 100%;
+  }
+
+
 }
