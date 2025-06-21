@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   object-fit: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 }
@@ -181,7 +182,7 @@ footer {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 100%;
   height: calc(100vh - 100px);
 }
 
@@ -361,6 +362,11 @@ ul.m-list :first-child {
   align-items: center;
   justify-content: center;
 
+}
+
+.item>i:hover {
+
+  fill: #FFFFFF;
 }
 
 .song-name {
@@ -700,7 +706,7 @@ HEIGHT 350PX
 QUARTO BREAK POINT 
 */
 
-@media all and (max-height: 1000px) {
+@media all and (max-height: 900px) {
 
   .Ω {
     display: none;
